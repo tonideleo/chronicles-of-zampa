@@ -31,8 +31,8 @@ function SideMenu() {
       </section>
       <section className="main-menu flex-col items-center fixed mt-60 font-titlefont text-2xl gap-5 text-slate-600 hidden sm:flex">
         <h1 className="sm:text-xl md:text-3xl text-center uppercase text-black">
-          Travel with<br></br>
-          <span className="font-semibold font-namefont">Catherine</span>
+          The Chronicles of<br></br>
+          <span className="font-semibold font-namefont">Zampa</span>
         </h1>
         <NavLink
           className="hover:text-blue-600 smooth-transition text-xl"
@@ -139,7 +139,7 @@ function SideMenu() {
           target="_blank"
           rel="noreferrer"
         >
-          &copy; 2022 by Catherine
+          &copy; 2022 by Toni (Thanks to Catherine)
         </a>
       </section>
     </article>
