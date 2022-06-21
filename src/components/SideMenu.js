@@ -105,7 +105,7 @@ function SideMenu() {
             rel="noopener noreferrer"
           >
             <img
-              className="w-6 h-6	max-w-full"
+              className="w-6 h-6	max-w-full hover:scale-150 smooth-transition"
               src={Facebook}
               alt="Facebook icon"
             ></img>
@@ -116,7 +116,7 @@ function SideMenu() {
             rel="noopener noreferrer"
           >
             <img
-              className="w-6 h-6	max-w-full"
+              className="w-6 h-6	max-w-full hover:scale-150 smooth-transition"
               src={Instagram}
               alt="Instagram icon"
             ></img>
@@ -127,14 +127,14 @@ function SideMenu() {
             rel="noopener noreferrer"
           >
             <img
-              className="w-6 h-6	max-w-full"
+              className="w-6 h-6	max-w-full hover:scale-150 smooth-transition"
               src={Twitter}
               alt="Twitter icon"
             ></img>
           </a>
         </section>
         <a
-          className="text-sm"
+          className="text-sm hover:scale-110 smooth-transition"
           href="https://github.com/catherineisonline/travel-with-catherine"
           target="_blank"
           rel="noreferrer"
