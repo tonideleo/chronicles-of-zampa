@@ -35,8 +35,8 @@ function SideMenu() {
           <span className="font-semibold font-namefont">Zampa</span>
         </h1>
         <NavLink
-          className="hover:text-blue-600 smooth-transition text-xl"
-          to="/travel-with-catherine"
+          className="hover:text-blue-600 smooth-transition text-xl hover:scale-150"
+          to="/chronicles-of-zampa"
           onClick={() => {
             ResetLocation();
             RemoveMenu();
@@ -45,7 +45,7 @@ function SideMenu() {
           Gallery
         </NavLink>
         <NavLink
-          className="hover:text-blue-600 smooth-transition text-xl"
+          className="hover:text-blue-600 smooth-transition text-xl hover:scale-150"
           to="/blog"
           onClick={() => {
             ResetLocation();
@@ -63,7 +63,7 @@ function SideMenu() {
           Blog
         </NavLink>
         <NavLink
-          className="hover:text-blue-600 smooth-transition text-xl"
+          className="hover:text-blue-600 smooth-transition text-xl hover:scale-150"
           to="/about"
           onClick={() => {
             ResetLocation();
@@ -81,7 +81,7 @@ function SideMenu() {
           About
         </NavLink>
         <NavLink
-          className="hover:text-blue-600 smooth-transition text-xl"
+          className="hover:text-blue-600 smooth-transition text-xl hover:scale-150"
           to="/contact"
           onClick={() => {
             ResetLocation();
