@@ -21,9 +21,9 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "start": "craco start",
+    "start": "gh-pages -d build",
     "build": "craco build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build -r https://tonideleo.github.io/chronicles-of-zampa/",
     "test": "craco test",
     "eject": "react-scripts eject"
   },
