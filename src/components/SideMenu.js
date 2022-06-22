@@ -139,7 +139,7 @@ function SideMenu() {
           target="_blank"
           rel="noreferrer"
         >
-          &copy; 2022 by Toni (Thanks to Catherine)
+          &copy; 2022 by Toni2 (Thanks to Catherine)
         </a>
       </section>
     </article>
