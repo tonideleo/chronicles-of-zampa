@@ -1,5 +1,6 @@
 {
-  "name": "zampa",
+  "name": "chronicles-of-zampa",
+  "homepage": "https://tonideleo.github.io/chronicles-of-zampa",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,7 +9,6 @@
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
-    "gh-pages": "^3.2.3",
     "jquery": "^3.6.0",
     "postcss-flexbugs-fixes": "^5.0.2",
     "react": "^18.0.0",
@@ -19,11 +19,11 @@
     "tailwind-scrollbar-hide": "^1.1.7",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "/chronicles-of-zampa",
   "scripts": {
+    "predeploy": "npm run build",
     "start": "craco start",
     "build": "craco build",
-    "deploy": "gh-pages -d build -r https://github.com/catherineisonline/travel-with-catherine",
+    "deploy": "gh-pages -d build",
     "test": "craco test",
     "eject": "react-scripts eject"
   },
@@ -47,6 +47,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.7",
+    "gh-pages": "^4.0.0",
     "postcss": "^8.4.14",
     "postcss-loader": "^4.1.0",
     "tailwindcss": "^3.1.4"
