@@ -1,5 +1,5 @@
 {
-  "name": "photographer-portfolio",
+  "name": "zampa",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,7 +19,7 @@
     "tailwind-scrollbar-hide": "^1.1.7",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "/travel-with-catherine",
+  "homepage": "/chronicles-of-zampa",
   "scripts": {
     "start": "craco start",
     "build": "craco build",
